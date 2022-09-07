@@ -1703,7 +1703,7 @@ def main():
 	except IsADirectoryError:pass
 	except FileNotFoundError:
 		print(f"{Color.LR}[CRITICAL ERROR]:{Color.RESET} File: 'utils' NotFound")
-		print("\n[+] Please download on GitHub, or git clone: https://github.com/ToNghia\n")
+		print("\n[+] Please download on GitHub, or git clone: https://github.com/ToNghia/0t")
 		os.remove(f'{__file__}')
 		script = False
 	if script == False:sys.exit()
